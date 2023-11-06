@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+
 import './Navbar.css';
 
 function App() {
   return (
     <div className='navbar'>
             <div className='logo'>
-                <img src='logo.svg' alt="Logo"/>
+                <img src='logo.png' alt="Logo"/>
             </div>
             <div className='search-bar'>
                 <input type='text' placeholder='Search' />
