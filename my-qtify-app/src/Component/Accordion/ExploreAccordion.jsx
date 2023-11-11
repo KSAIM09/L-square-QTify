@@ -4,12 +4,12 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import "./Accordion.css";
-import faqData from "../Data/Data"
+import { faqData } from '../Data/Data';
 
 const ExploreAccordion = ({ data }) => {
     return (
       <div className="exploreaccordion">
-        <Accordion className="custom-accordion">
+        <Accordion style={{ border: "1px solid #FFFFFF", borderRadius: "10px" }}>
           <AccordionSummary
             style={{
               background: "#121212",
@@ -25,7 +25,7 @@ const ExploreAccordion = ({ data }) => {
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
-            <Typography className="custom-typography-1">
+           <Typography style={{ fontSize: "20px", color: "#FFFFFF" }}>
               {faqData.question}
             </Typography>
           </AccordionSummary>
@@ -39,7 +39,7 @@ const ExploreAccordion = ({ data }) => {
               overflow: "scroll",
             }}
           >
-            <Typography className="custom-typography-2">
+            <Typography style={{ fontSize: "25px", color: "#121212" }}>
               {faqData.answer}
             </Typography>
           </AccordionDetails>
