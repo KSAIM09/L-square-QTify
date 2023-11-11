@@ -8,7 +8,7 @@ import "./Accordion.css";
 const ExploreAccordion = ({ data }) => {
     return (
       <div className="exploreaccordion">
-        <Accordion style={{ border: "1px solid #FFFFFF", borderRadius: "10px" }}>
+        <Accordion>
           <AccordionSummary
             style={{
               background: "#121212",
