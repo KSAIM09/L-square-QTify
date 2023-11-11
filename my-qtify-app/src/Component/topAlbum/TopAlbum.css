@@ -35,4 +35,7 @@
 
 .topAlbum_cards{
     display: flex;
+    justify-content: space-between; 
+    flex-shrink: 1;
+    flex-wrap: wrap;
 }
