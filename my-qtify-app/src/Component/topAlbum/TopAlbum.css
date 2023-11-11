@@ -1,0 +1,38 @@
+
+.topAlbum{
+    width: 100vw;;
+}
+.topAlbum_static{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 12px;
+}
+
+.topAlbum_static > button {
+    width: 120px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: var(--black-color);
+    color: var(--primary-color);
+    border: none;
+}
+
+.topAlbum_static > button:hover{
+    cursor: pointer;
+}
+
+.topAlbum_static > h3{
+    width: 130px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--white-color);
+    border: none;
+}
+
+.topAlbum_cards{
+    display: flex;
+}
