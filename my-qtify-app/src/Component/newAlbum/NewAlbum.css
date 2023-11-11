@@ -1,15 +1,15 @@
-
-.topAlbum{
-    width: 100vw;;
+.newAlbum{
+    width: 100vw;
 }
-.topAlbum_static{
+
+.newAlbum_static{
     display: flex;
-    justify-content: space-between;
     align-items: baseline;
+    justify-content: space-between;
     padding: 12px;
 }
 
-.topAlbum_static > button {
+.newAlbum_static > button {
     width: 120px;
     height: 30px;
     font-weight: 600;
@@ -19,11 +19,11 @@
     border: none;
 }
 
-.topAlbum_static > button:hover{
+.newAlbum_static > button:hover{
     cursor: pointer;
 }
 
-.topAlbum_static > h3{
+.newAlbum_static > h3 {
     width: 130px;
     height: 30px;
     font-weight: 600;
@@ -33,6 +33,6 @@
     border: none;
 }
 
-.topAlbum_cards{
+.newAlbum_cards{
     display: flex;
 }
