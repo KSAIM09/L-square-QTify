@@ -8,7 +8,7 @@ import "./Accordion.css";
 const ExploreAccordion = ({ data }) => {
     return (
       <div className="exploreaccordion">
-        <Accordion>
+        <Accordion className="custom-accordion">
           <AccordionSummary
             style={{
               background: "#121212",
@@ -24,7 +24,7 @@ const ExploreAccordion = ({ data }) => {
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
-            <Typography style={{ fontSize: "20px", color: "#FFFFFF" }}>
+            <Typography className="custom-typography-1">
               {data.question}
             </Typography>
           </AccordionSummary>
@@ -38,7 +38,7 @@ const ExploreAccordion = ({ data }) => {
               overflow: "scroll",
             }}
           >
-            <Typography style={{ fontSize: "25px", color: "#121212" }}>
+            <Typography className="custom-typography-2">
               {data.answer}
             </Typography>
           </AccordionDetails>

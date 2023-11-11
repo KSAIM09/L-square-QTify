@@ -2,6 +2,16 @@
     border: 1px solid #FFFFFF;
     border-radius: 10px;
 }
+
+.custom-typography-1 {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+  
+.custom-typography-2 {
+    font-size: 25px;
+    color: #121212;
+}
 .exploreaccordion{
     display: flex;
     flex-direction: column;
