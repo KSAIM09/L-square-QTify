@@ -4,6 +4,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import "./Accordion.css";
+import faqData from "../Data/Data"
 
 const ExploreAccordion = ({ data }) => {
     return (
@@ -25,7 +26,7 @@ const ExploreAccordion = ({ data }) => {
             id="panel1a-header"
           >
             <Typography className="custom-typography-1">
-              {data.question}
+              {faqData.question}
             </Typography>
           </AccordionSummary>
           <AccordionDetails
@@ -39,7 +40,7 @@ const ExploreAccordion = ({ data }) => {
             }}
           >
             <Typography className="custom-typography-2">
-              {data.answer}
+              {faqData.answer}
             </Typography>
           </AccordionDetails>
         </Accordion>
